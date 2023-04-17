@@ -4,8 +4,8 @@ Untuk soal 1 digunakan distribusi binomial karena terdapat 2 kemungkinan hasil (
 - n (jumlah percobaan) = 10
 - p (probabilitas keberhasilan) = 0,488
 ### b-f
-![1-1](gambar/1-1.jpg)
-![1-2](gambar/1-2.jpg)
+![1-1](gambar/1-1.png)
+![1-2](gambar/1-2.png)
 ### Histogram dan Tabel Nilai
-![1-histogram](gambar/1-histogram.jpg)
-![1-tabel](gambar/1-tabel.jpg)
+![1-histogram](gambar/1-histogram.png)
+![1-tabel](gambar/1-tabel.png)
