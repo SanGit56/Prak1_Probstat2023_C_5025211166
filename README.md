@@ -1,6 +1,6 @@
 ## 1. Probabilitas seorang bayi yang baru lahir berjenis kelamin laki-laki adalah 0,488. Jika kita asumsikan bahwa dalam satu hari di rumah sakit terdapat 10 kelahiran, maka:
 ### a. Bagaimana pendistribusian banyak bayi laki-laki? Tentukan distribusi dengan parameter yang sesuai.
-Untuk soal 1 digunakan distribusi binomial karena terdapat 2 kemungkinan hasil (laki-laki & bukan laki-laki/perempuan). Serta terdapat 10 kelahiran sebagai jumlah percobaan independen. Parameter-parameter yang sesuai adalah sebagai berikut:
+Untuk soal 1 digunakan distribusi binomial karena terdapat 2 kemungkinan hasil (laki-laki & bukan laki-laki/perempuan). Serta terdapat 10 kelahiran sebagai jumlah percobaan independen dan probabilitas bayi yang lahir laki-laki adalah 0,488. Parameter-parameter yang sesuai adalah sebagai berikut:
 - n (jumlah percobaan) = 10
 - p (probabilitas keberhasilan) = 0,488
 ### b-f
@@ -9,3 +9,18 @@ Untuk soal 1 digunakan distribusi binomial karena terdapat 2 kemungkinan hasil (
 ### Histogram dan Tabel Nilai
 ![1-histogram](gambar/1-histogram.png)
 ![1-tabel](gambar/1-tabel.png)
+
+## 2. Misalkan banyak kematian karena kanker tulang untuk seluruh pekerja di pabrik ban dalam 20 tahun ke depan adalah 1,8.
+### a. Bagaimana pendistribusian banyak kematian karena kanker tulang? Tentukan distribusi dengan parameter yang sesuai.
+Untuk soal 2 digunakan distribusi poisson karena terdapat rentang waktu tertentu. Serta banyaknya kejadian kematian karena kanker tulang dalam 20 tahun ke depan adalah 1,8. Parameter-parameter yang sesuai adalah sebagai berikut:
+- t (waktu) = 20
+- lambda (rata-rata banyak kejadian dalam t) = 1,8
+### b-g
+![2-1](gambar/2-1.png)
+![2-2](gambar/2-2.png)
+![2-3](gambar/2-3.png)
+### Histogram dan Tabel Nilai
+![2-histogram](gambar/2-histogram.png)
+![2-tabel](gambar/2-tabel.png)
+### h. Jelaskan banyak kematian akibat kanker tulang berdasarkan simulasi Anda. Bandingkan jawaban pada pertanyaan 2d dengan hasil simulasi Anda.
+Rata-rata probabilitas kematian dengan jumlah lebih dari 4 yang disimulasikan secara acak sebanyak 100 kali adalah 0,02. Sedangkan jawaban dari pertanyaan 2d adalah 0,03640666. Selisih yang kecil berarti jawaban dari pertanyaan 2d bisa dibilang valid

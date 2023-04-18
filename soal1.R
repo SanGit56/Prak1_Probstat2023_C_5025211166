@@ -1,13 +1,15 @@
-n <- 10
-p <- 0.488
+n <- 10       # jumlah bayi lahir dalam sehari
+p <- 0.488    # probabilitas bayi lahir adalah laki-laki
 
 # b. Berapa probabilitas bahwa tepat tiga bayi di antaranya berjenis kelamin laki-laki?
+
 prob_3 <- dbinom(3, size=n, prob=p)
 prob_3
 # keluaran hasil = 0.1286265
 
 
 # c. Berapa probabilitas bahwa kurang dari tiga bayi di antaranya berjenis kelamin laki-laki?
+
 # hitung dan jumlahkan probabilitas kelahiran bayi laki-laki kurang dari 3
 prob_0 <- dbinom(0, size=n, prob=p)
 prob_1 <- dbinom(1, size=n, prob=p)
@@ -18,6 +20,7 @@ prob_krg_dr_3
 
 
 # d. Berapa probabilitas bahwa tiga atau lebih bayi di antaranya berjenis kelamin laki-laki?
+
 # kurangi probabilitas total dengan probabilitas kurang dari 3
 prob_3_lebih <- 1 - prob_krg_dr_3
 prob_3_lebih
@@ -25,6 +28,7 @@ prob_3_lebih
 
 
 # e. Berapa nilai harapan dan simpangan baku banyak bayi laki-laki?
+
 # nilai harapan
 ekspektasi <- n * p
 ekspektasi
