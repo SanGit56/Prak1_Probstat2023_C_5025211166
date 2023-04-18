@@ -23,4 +23,15 @@ Untuk soal 2 digunakan distribusi poisson karena terdapat rentang waktu tertentu
 ![2-histogram](gambar/2-histogram.png)
 ![2-tabel](gambar/2-tabel.png)
 ### h. Jelaskan banyak kematian akibat kanker tulang berdasarkan simulasi Anda. Bandingkan jawaban pada pertanyaan 2d dengan hasil simulasi Anda.
-Rata-rata probabilitas kematian dengan jumlah lebih dari 4 yang disimulasikan secara acak sebanyak 100 kali adalah 0,02. Sedangkan jawaban dari pertanyaan 2d adalah 0,03640666. Selisih yang kecil berarti jawaban dari pertanyaan 2d bisa dibilang valid
+Rata-rata probabilitas kematian dengan jumlah lebih dari 4 yang disimulasikan secara acak sebanyak 100 kali adalah 0,02. Sedangkan jawaban dari pertanyaan 2d adalah 0,03640666. Selisih yang kecil berarti jawaban dari pertanyaan 2d bisa dibilang valid.
+
+## 3. Diketahui nilai x = 3 dan v = 10. Tentukan:
+### a. Fungsi probabilitas dari distribusi Chi-Square.
+Jawab: f(x) = (1 / (2^(v/2) * Γ(v/2))) * x^(v/2 - 1) * e^(-x/2)
+-> f(x) = (1 / (2^(5) * Γ(5))) * x^(4) * e^(-x/2)
+-> f(x) = (1 / 768) * x^(4) * e^(-x/2)
+### b-c
+![3](gambar/3.png)
+### Histogram dan Tabel Nilai
+![3-histogram](gambar/3-histogram.png)
+![3-tabel](gambar/3-tabel.png)

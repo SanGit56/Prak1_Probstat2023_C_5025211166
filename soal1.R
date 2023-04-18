@@ -46,5 +46,5 @@ stan_dev
 dist_prob <- dbinom(0:n, size=n, prob=p)
 
 # gambar histogram
-hist(0:n, breaks=n+1, freq=FALSE, ylim=c(0,0.2), xlab="Banyak bayi laki-laki", ylab="Probabilitas")
+hist(0:n, breaks=n+1, freq=FALSE, ylim=c(0,0.3), xlab="Banyak bayi laki-laki", ylab="Probabilitas")
 lines(0:n, dist_prob, type="h", lwd=2, col="red")

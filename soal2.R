@@ -55,7 +55,7 @@ sb_x <- seq(0, 10, by=1)
 dist_prob <- dpois(sb_x, lambda=lambda)
 
 # gambar histogram
-hist(sb_x, breaks=11, freq=FALSE, ylim=c(0,0.2), xlab="Banyak kematian", ylab="Probabilitas")
+hist(sb_x, breaks=11, freq=FALSE, ylim=c(0,0.35), xlab="Banyak kematian", ylab="Probabilitas")
 lines(sb_x, dist_prob, type="h", lwd=2, col="blue")
 
 
