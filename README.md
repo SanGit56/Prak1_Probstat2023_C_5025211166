@@ -35,3 +35,22 @@ Jawab: f(x) = (1 / (2^(v/2) * Γ(v/2))) * x^(v/2 - 1) * e^(-x/2)
 ### Histogram dan Tabel Nilai
 ![3-histogram](gambar/3-histogram.png)
 ![3-tabel](gambar/3-tabel.png)
+
+## 4. Diketahui data bangkitan acak sebanyak 100 dengan mean = 45 dan sd = 5. Tentukan:
+### Jawaban:
+![4-1](gambar/4-1.png)
+![4-2](gambar/4-2.png)
+### Plot Titik, Histogram, dan Tabel Nilai
+![4-plot](gambar/4-plot.png)
+![4-histogram](gambar/4-histogram.png)
+![4-tabel](gambar/4-tabel.png)
+
+## 5. Kerjakanlah menggunakan distribusi T-Student.
+### Jawaban:
+![5-1](gambar/5-1.png)
+![5-2](gambar/5-2.png)
+![5-3](gambar/5-3.png)
+![5-4](gambar/5-4.png)
+![5-5](gambar/5-5.png)
+### Tabel Nilai
+![5-tabel](gambar/5-tabel.png)
